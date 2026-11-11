@@ -1,0 +1,25 @@
+R version 4.6.1 (2026-06-24)
+Platform: aarch64-apple-darwin23
+Running under: macOS Golden Gate 27.2
+
+Matrix products: default
+BLAS:   /Library/Frameworks/R.framework/Versions/4.6/Resources/lib/libRblas.0.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.6/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] en_US/en_US/en_US/C/en_US/en_US
+
+time zone: America/Chicago
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+ [1] compiler_4.6.1   Matrix_1.7-5     tools_4.6.1      survival_3.8-6  
+ [5] Rcpp_1.1.2       splines_4.6.1    codetools_0.2-20 grid_4.6.1      
+ [9] iterators_1.0.14 foreach_1.5.2    shape_1.4.6.1    glmnet_5.2      
+[13] lattice_0.22-9  
+cpu: Apple M6
+ram_gb: 32
+threads: OMP_NUM_THREADS=1;OPENBLAS_NUM_THREADS=1;VECLIB_MAXIMUM_THREADS=1

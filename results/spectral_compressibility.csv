@@ -1,0 +1,16 @@
+"dataset","V","N","threshold","K","K_over_V"
+"ABIDE (func, V=200)",200,200,0.5,NA,NA
+"ABIDE (func, V=200)",200,200,0.8,NA,NA
+"ABIDE (func, V=200)",200,200,0.9,NA,NA
+"ACPI (func, V=200)",200,150,0.5,2,0.01
+"ACPI (func, V=200)",200,150,0.8,80,0.4
+"ACPI (func, V=200)",200,150,0.9,NA,NA
+"OASIS-3 (struct, scale1)",124,695,0.5,100,0.806
+"OASIS-3 (struct, scale1)",124,695,0.8,NA,NA
+"OASIS-3 (struct, scale1)",124,695,0.9,NA,NA
+"OASIS-3 (struct, scale2)",170,695,0.5,NA,NA
+"OASIS-3 (struct, scale2)",170,695,0.8,NA,NA
+"OASIS-3 (struct, scale2)",170,695,0.9,NA,NA
+"OASIS-3 (struct, scale3)",272,695,0.5,NA,NA
+"OASIS-3 (struct, scale3)",272,695,0.8,NA,NA
+"OASIS-3 (struct, scale3)",272,695,0.9,NA,NA

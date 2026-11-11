@@ -1,0 +1,16 @@
+data/**
+!data/
+!data/*/
+!data/*/README.txt
+*.rds
+*.npy
+.Rhistory
+.RData
+.DS_Store
+__pycache__/
+results/**/smoke*
+results/icde/_superseded/
+paper/out/
+*.aux
+*.log
+*.pdf
