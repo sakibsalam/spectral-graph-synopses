@@ -40,8 +40,8 @@ VARIABLE DICTIONARY FOR subjects.csv
                 the per-site source (mta_1/nyu_1/du_1) is not preserved in this column.
   AGE_AT_SCAN   numeric, years. Confirmed range in this sample: 20.3 to 50.73.
   SEX           integer, ABIDE-style convention carried over: confirmed values 1 and 2.
-                Split in this sample: 27 coded 1, 123 coded 2 (matches CLAUDE.md's
-                "123F/27M", i.e. 1 = male, 2 = female).
+                Split in this sample: 27 coded 1, 123 coded 2 (123F/27M, i.e. 1 = male,
+                2 = female).
   BMI           intended to be numeric body-mass index. CONFIRMED IN THIS SAMPLE: every one
                 of the 150 rows holds the placeholder character "#", not a numeric value --
                 BMI is effectively 100% missing in this downloaded file, even though it is
@@ -56,8 +56,7 @@ COUNTS
 
 KNOWN CAVEATS
   BMI is present as a column but is unusable -- see above; treat this folder as carrying
-  only age and sex as usable outcomes, not "age, sex, BMI" as an earlier note in this file
-  and CLAUDE.md section 3b both state.
+  only age and sex as usable outcomes, not "age, sex, BMI" as an earlier note in this file stated.
   Cannabis/marijuana-use group is NOT in this file at all -- it lives only in the separate
   site phenotype files (mta_1_/nyu_1_/du_1_phenotypic_data.csv) linked above, which were
   never downloaded or joined here.

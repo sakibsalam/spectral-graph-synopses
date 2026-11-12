@@ -1,7 +1,7 @@
 ## =====================================================================================
 ## Assemble data/osf_master/{master.rds, subjects.csv, meta.csv} from the osf_guha cache.
 ##
-## This is the master-assembly step referenced throughout CLAUDE.md section 9 (the outcome
+## This is the master-assembly step used by the downstream scripts (the outcome
 ## explorer, Rieck-replication, and mode-mapping scripts all read data/osf_master/master.rds).
 ## No saved script for this step could be found under Codes/ when this file was added
 ## (2026-09-11) -- it was evidently run ad hoc in an earlier session. This version

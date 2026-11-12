@@ -1,5 +1,5 @@
 ## =====================================================================================
-## Properly cross-validated raw-edge comparators (fairness fix, see CLAUDE.md discussion).
+## Properly cross-validated raw-edge comparators (fairness fix).
 ##
 ## Background. Codes/core/network_bayes_simulation.R::raw_edge_ridge() and
 ## Codes/core/abide_pipeline.R::raw_edge_ridge_woodbury() use a HARDCODED penalty (alpha =

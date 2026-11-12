@@ -1,8 +1,8 @@
-# Codes/icde: experiments for the ICDE 2027 paper
+# Codes/icde: experiments and number generation
 
 Purpose: measured cost versus number of vertices (E1), effective degrees of freedom at 229 vertices (E2),
 synopsis size by training-set size grid (E3), optional synopsis-size sweep at 229 vertices (E4), and figures.
-Run everything from the repo root. Nothing under `Codes/core`, `Codes/analysis`, existing `results/*.csv`, or `CLAUDE.md` is modified;
+Run everything from the repo root. Nothing under `Codes/core`, `Codes/analysis`, or existing `results/*.csv` is modified;
 all outputs go to `results/icde/`.
 
 ## Inputs
@@ -35,7 +35,7 @@ R packages: glmnet, igraph. E1 BMGC cell also needs gdata, pROC, mvtnorm, pscl, 
   (default outdir `results/icde/figs/`). Dashed lines in fig_scaling are projections from measured per-iteration cost and are labeled so.
 - `run_icde.sh [--smoke]`: E1, E2, E2b, E3 (and E4 if `RUN_E4=1`), then figures; log in `results/icde/LOG.md` with sessionInfo.
 
-## Experiments added on 2026-11-11 (G1 to G6)
+## Experiments G1 to G10
 - `icde_common.R` also holds `subject_folds()` (inner CV folds by subject), `ridge_dual_cv_folds()` (dual-Gram CV ridge with
   given folds; same grid and refit as `raw_edge_ridge_cv`), and `pca_scores()` (edge-space PCA from training graphs only).
 - `G1_generic_synopses.R --atlas=<sch100|power229> --outcome=<age_continuous|nbk_0v1>` -> `results/icde/generic_<atlas>_<outcome>.csv`

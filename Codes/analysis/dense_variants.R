@@ -41,8 +41,7 @@
 ## Resumable: appends whole splits (all variant + reference rows) to
 ## results/dense_variants_sch100.csv; a split already fully written (9 rows: 7 variants + ridge
 ## + kundu) is skipped on rerun. Ownership: this file and its two output CSVs only -- does not
-## touch CLAUDE.md, RESUME.md, notebooks/, docs/, Codes/analysis/model_df_comparison.R, or any
-## existing results/*.csv.
+## touch Codes/analysis/model_df_comparison.R or any existing results/*.csv.
 ## =====================================================================================
 
 suppressMessages({

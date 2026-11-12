@@ -2,7 +2,7 @@
 ## Job 4b: the five-method comparison at V=100 (Schaefer-100) -- the new capability this
 ## atlas unlocks. Raw-edge ARD and raw-edge spike-and-slab SSVS (Codes/core/
 ## network_bayes_simulation.R::raw_edge_ard / spike_slab_ssvs) are documented throughout this
-## project (abide_pipeline.R, CLAUDE.md) as computationally prohibitive at the existing real
+## project (abide_pipeline.R) as computationally prohibitive at the existing real
 ## dataset's edge dimensions (p=19,900 at ABIDE cc200, p=26,106 at OSF Power-229) and have
 ## therefore NEVER been run on real data in this project. At V=100, p = 100*99/2 = 4,950 --
 ## small enough that both become feasible, so this is the first time the full five-method

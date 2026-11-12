@@ -66,7 +66,6 @@ KNOWN CAVEATS
   variant's reason for existing (see data/abide_aal/README.txt).
   Real-data findings from this folder (age is a distributed signal favoring dense raw-edge
   ridge; autism-vs-control classification is where the graph-spectral method's parsimony
-  shows) are recorded in CLAUDE.md section on key findings and in the 2026-06-22 workbook
-  entries -- not repeated here.
+  shows) are not repeated here.
 
 CITE: Craddock et al. 2013 (Preprocessed Connectomes Project); Di Martino et al. 2014 (ABIDE).

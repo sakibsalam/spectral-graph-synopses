@@ -391,7 +391,7 @@ def sdisp(c):
     return (f"T, $K{{=}}{k}$" if d == "T" else f"O, $R{{=}}{k}$" if d == "O" else "E")
 def cfgs(atlas, oc, frac):
     """{(design letter, size): {split: metric}} for the designs reported in the paper.
-    Edge ridge enters on T2 only (T1 edge arms belong to the concurrent paper); glmnet-wide is never used."""
+    Edge ridge enters on T2 only (T1 edge arms are not part of this benchmark); glmnet-wide is never used."""
     g = {}
     for k_ in KS_T: g[("T", k_)] = kbc(atlas, oc, "two_sided_ard", k_, frac)
     for r_ in (5, 10): g[("O", r_)] = kbc(atlas, oc, "one_sided_ridge", r_, frac)

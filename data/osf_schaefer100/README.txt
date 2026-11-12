@@ -84,8 +84,8 @@ master -- same 144 subjects, same derivation logic, just re-parcellated)
             working memory, covers all 3 n-back loads pooled). Confirmed counts: inhibition
             143, initiation 143, rest 143, shifting 144, wm 430 (= 143+144+143, the three
             n-back loads combined -- wm is 3x over-represented relative to the other domains
-            if used unpooled; see CLAUDE.md's domain_4class_balanced / domain_5class_all
-            outcomes and their documented balancing judgement call).
+            if used unpooled; see the domain_4class_balanced / domain_5class_all
+            outcomes, which balance the domains).
   LOAD      integer 0/1/2 for the three n-back conditions, NA for every other condition (573
             NAs, confirmed = 1003 - 430 wm rows). Only meaningful together with
             COND %in% c("nbk_0back","nbk_1back","nbk_2back").

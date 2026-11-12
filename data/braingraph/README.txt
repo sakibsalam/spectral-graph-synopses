@@ -54,7 +54,7 @@ COUNTS
   975 GraphML files in each of scale1/scale2/scale3 (one file per session; multiple sessions
   per subject are possible, e.g. sub-OAS30001 and sub-OAS30002 each appear with two distinct
   ses- tokens in scale1). 695 distinct subjects once sessions are collapsed to one-per-subject
-  (per CLAUDE.md's workbook entry -- not independently recomputed here, since doing so needs
+  (not independently recomputed here, since doing so needs
   the same session-collapsing logic already implemented in braingraph_oasis_pipeline.R).
   Nodes V = 124 (scale1), 170 (scale2), 272 (scale3).
 

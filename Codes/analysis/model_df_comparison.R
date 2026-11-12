@@ -18,7 +18,7 @@
 ## Ownership: this file, results/model_df_comparison.csv, results/figures/fig14_*.png, and
 ## docs/model_side_by_side.md are owned by this script/session. Nothing under Codes/core,
 ## Codes/benchmarks, Codes/analysis/outcome_explorer.R or multi_resolution_common.R,
-## CLAUDE.md, RESUME.md, notebooks/, or any pre-existing results/*.csv is modified --
+## or any pre-existing results/*.csv is modified --
 ## effective-df estimators that need internals not RETURNED by an existing fitting function
 ## (e.g. ARD's posterior gamma) are recomputed HERE from that function's own return values
 ## (coef, prec) rather than by editing the source function.
